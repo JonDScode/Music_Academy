@@ -5,6 +5,7 @@ app = Flask(__name__)
 todos= ['TODO 1', 'TODO 2', 'TODO 3']
 
 @app.route('/')
+
 def index():
 
 
